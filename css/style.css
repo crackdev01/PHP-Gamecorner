@@ -37,14 +37,14 @@ body {
     background-color: #0069B1;
     border-radius: 12px;
   }
-
+/* h1 */
   .card h1 {
       color: #000;
       background-color: #fff;
       margin: 10px 20px 10px 20px;
       border-radius: 12px;
   }
-  
+/* price */  
   .price {
     color: #fff;
     font-size: 28px;
@@ -52,7 +52,7 @@ body {
     margin: 0 50px 0 50px;
     border-radius: 12px;
   }
-  
+/* button */  
   .card button {
     border: none;
     outline: 0;
@@ -65,7 +65,7 @@ body {
     font-size: 18px;
     border-radius: 12px;
   }
-  
+/* on hover button */  
   .card button:hover {
     /* opacity: 0.7; */
     color: #000;
