@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <title>Document</title>
+    <title>GameStop</title>
 </head>
 <body>
+    
+    <div class="flex debug">
+        <?php include "card.php"; ?>
+    </div>
     
 </body>
 </html>
