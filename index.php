@@ -22,7 +22,7 @@
         <div class="nav debug">
             <div class="navContainer">
                 <a id="current" href="#">Home</a>
-                <a href="#">About Us</a>
+                <a href="#">About</a>
                 <a href="#">Contact</a>
             </div>
         </div>

@@ -12,7 +12,7 @@
         echo '<div class="card debug">' .
              '<img src="' . $row['game_img'] . '" alt="' . $row['game_name'] . '" style="width:100%">' .
              '<h1>' . $row['game_name']  . '</h1>' .
-             '<h2 class="price">' . '$' . $row['game_price'] . ',-' . '</h2>' .
+             '<h2 class="price">' . '€' . $row['game_price'] . ',-' . '</h2>' .
              '<p class="gameinfo">' . $row['game_info'] . '</p>' . 
              '<a href="games.php?id=' . $row['game_id'] . '">' .          
              '<p>' . '<button>' . 'Click For More Info' . '</button>' . '</p>' .
