@@ -19,7 +19,7 @@
                 <a href="index.php">Home</a>
             </div>
         </div>
-
+        
 <!-- DROPDOWN FILTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <div class="dropdown debug">
             <button onclick="myFunction()" class="dropbtn">Dropdown Filter</button>
@@ -42,7 +42,7 @@
 
     include "db_connection.php";        
 
-    $sql_querie = "SELECT * FROM gameinfo ORDER BY game_price ASC"; 
+    $sql_querie = "SELECT * FROM gameinfo ORDER BY game_year ASC"; 
     
     $db_result = $conn->query($sql_querie);  
 

@@ -42,7 +42,7 @@
 
     include "db_connection.php";        
 
-    $sql_querie = "SELECT * FROM gameinfo ORDER BY game_price ASC"; 
+    $sql_querie = "SELECT * FROM gameinfo ORDER BY game_name "; 
     
     $db_result = $conn->query($sql_querie);  
 

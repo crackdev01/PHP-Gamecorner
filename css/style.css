@@ -5,12 +5,12 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: #444;
+    background-color: #555;
     margin: 0;
     padding: 0;
 }
 
-/*body background landingpage */
+/*body background landing page */
 .landingBackground {
   background-image: url('../img/header_background1.jpg');
   background-position: center;
@@ -23,42 +23,45 @@ body {
     border: 1px solid red;
 } */
 
-/*Whitespace*/
+/*Whitespace global*/
 .whitespace {
     height: 100px;
 }
 
-/* GLOBAL /////////////////////////////////////////*/
+/*Whitespace for dropdown menu*/
+.whitespace2 {
+  height: 120px;
+}
+
+/* GLOBAL //////////////////////////////////////////////////*/
 .flexContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* height: auto; */
     flex-wrap: wrap;
-    /* justify-content: center;
-    align-items: center; */
   }
 
 /* dropdown FILTER ////////////////////////////////////////*/
 /* Dropdown Button */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #0069B1;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 12px;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41;
+  background-color: #008ED6;
 }
 
 /* The search field */
 #myInput {
-  border-box: box-sizing;
-  background-image: url('searchicon.png');
+  box-sizing: border-box;
   background-position: 14px 12px;
   background-repeat: no-repeat;
   font-size: 16px;
@@ -74,15 +77,18 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin: 0 auto; /*place in the center*/
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f6f6f6;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
   min-width: 230px;
-  border: 1px solid #ddd;
+  border: 1px solid #000;
+  border-radius: 12px;
   z-index: 1;
 }
 
@@ -95,10 +101,15 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #008ED6;
+  color: #fff;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}  
+.show {
+  display:block;
+}  
 
 
 /* top HOMEPAGE///////////////////////////////////////////*/  

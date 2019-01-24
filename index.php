@@ -10,57 +10,38 @@
 </head>
 <body>
 
-<!-- GLOBAL FLEX CONTAINER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!-- GLOBAL FLEX CONTAINER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     <div class="flexContainer debug">
 
 <!-- NAV TOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->        
         <div class="nav debug">
             <div class="navContainer">
-                <a href="landingpage.php">LandingPage</a>
+                <a href="landingpage.php">Landing Page</a>
             </div>
         </div>
-
-<!-- NAV !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->        
-        <div class="nav debug">
-            <div class="navContainer">
-                <a id="current" href="index.php">Games</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-   
-<!-- WHITESPACE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-        <div class="debug whitespace"></div>
-
-<!-- NAV !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->        
-<!-- <div class="nav debug">
-        <div class="navContainer">
-                <a href="#">Filter On:</a>
-                <a href="#">Price from low to high</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-        </div>
-</div> -->
-
-        <div class="dropdown">
+<!-- DROPDOWN FILTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+        <div class="dropdown debug">
                 <button onclick="myFunction()" class="dropbtn">Dropdown Filter</button>
                         <div id="myDropdown" class="dropdown-content">
-                                <input type="text" placeholder="Filter" id="myInput" onkeyup="filterFunction()">
-                                        <a href="card-price.php">Price Low To High</a>
-                                        <a href="#">Name Alphabetic</a>
-                                        <a href="#">Year</a>
+                                <!-- <input type="text" placeholder="Filter" id="myInput" onkeyup="filterFunction()"> -->
+                                <a href="card-price.php">Price Low To High</a>
+                                <a href="card-year.php">Name Alphabetic</a>
+                                <a href="card-year.php">Year</a>
                         </div>
         </div>
+
+<!-- WHITESPACE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <div class="debug whitespace2"></div>
 
 <!-- PHP CARDS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->         
         <div class="cards debug">
             <?php include "card.php"; ?>
         </div>
 
-<!-- WHITESPACE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!-- WHITESPACE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         <div class="debug whitespace"></div>
 
-<!--FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->    
+<!--FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->    
         <div class="debug footer">Copyright &copy; 2019, GameCorner by Philip Andes</div>
 
     </div>
