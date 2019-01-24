@@ -1,10 +1,45 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>GameCorner || Main</title>
+</head>
+<body>
+
+<!-- GLOBAL FLEX CONTAINER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <div class="flexContainer debug">
+
+<!-- NAV TOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->        
+    <div class="nav debug">
+        <div class="navContainer">
+            <a href="index.php">Home</a>
+        </div>
+    </div>
+
+<!-- NAV !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->        
+        <!-- <div class="nav debug">
+            <div class="navContainer">
+                <a href="index.php">Games</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div> -->
+        
+<!-- WHITESPACE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <div class="debug whitespace"></div>
+
+<!-- PHP CARDS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->         
+        <div class="cards debug">
+        <?php
 
 //Filter For price between 20 and 30
 
     include "db_connection.php";        
 
-    $sql_querie = "SELECT * FROM gameinfo WHERE game_price BETWEEN 20 AND 30"; 
+    $sql_querie = "SELECT * FROM gameinfo ORDER BY game_price ASC"; 
     
     $db_result = $conn->query($sql_querie);  
 
@@ -26,3 +61,15 @@
     $conn = null;
 
 ?>
+        </div>
+
+<!-- WHITESPACE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <div class="debug whitespace"></div>
+
+<!--FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->    
+        <div class="debug footer">Copyright &copy; 2019, GameCorner by Philip Andes</div>
+
+    </div>
+    
+</body>
+</html>
