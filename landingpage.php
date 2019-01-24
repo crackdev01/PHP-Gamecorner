@@ -17,7 +17,7 @@
                 <div class="headerText debug">
                     GameCorner <br />
                     <!-- Landing page SMALL TEXT-->
-                    <span class="smallText debug">Click The Ball To Continue:</span>
+                    <span class="smallText debug">Hit The Ball To Continue:</span>
                 </div>
 
 <!-- Landing page BUTTON!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->                

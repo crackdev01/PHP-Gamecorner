@@ -22,7 +22,7 @@
 
 <!-- DROPDOWN FILTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <div class="dropdown debug">
-            <button onclick="myFunction()" class="dropbtn">Dropdown Filter</button>
+            <button onclick="filterButton()" class="dropbtn">Dropdown Filter</button>
                 <div id="myDropdown" class="dropdown-content">
                     <!-- <input type="text" placeholder="Filter" id="myInput" onkeyup="filterFunction()"> -->
                     <a href="card-price.php">Price Low To High</a>
