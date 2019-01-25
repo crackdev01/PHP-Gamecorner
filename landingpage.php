@@ -22,7 +22,7 @@
 
 <!-- Landing page BUTTON!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->                
                 <div class="landingButton debug">
-                    <a href="index.php" class="arrowDown debug"></a>
+                    <a href="welcome.php" class="arrowDown debug"></a>
                 </div>
         <!-- </div> -->
 </div>

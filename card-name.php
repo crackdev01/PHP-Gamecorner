@@ -16,7 +16,7 @@
 <!-- NAV TOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->        
         <div class="nav debug">
             <div class="navContainer">
-                <a href="index.php">Home</a>
+                <a href="welcome.php">Home</a>
             </div>
         </div>
 

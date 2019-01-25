@@ -17,7 +17,8 @@
 <!-- NAV !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->        
         <div class="nav debug">
             <div class="navContainer">
-                <a href="index.php">Home</a>
+                <a href="welcome.php">Home</a>
+                <a href="index.php">Browse Games</a>
             </div>
         </div>
 
@@ -55,15 +56,15 @@
                         '<div class="card2 debug">' .
                         // h1 game name 
                         '<h1>' . $row['game_name']  . '</h1>' .
-                        '<p class="gameinfo2">' . '<span class="gameinfo3>' . 'Genre: ' . '</span>' . $row['game_genre'] . '</p>' .
-                        '<p class="gameinfo2">' . 'Publisher: ' . $row['game_publisher'] . '</p>' .
-                        '<p class="gameinfo2">' . 'Year: ' . $row['game_year'] . '</p>' .
+                        '<p class="gameinfo2">' . '<span class="gameinfo3">' . 'Genre: ' . '</span>' . $row['game_genre'] . '</p>' .
+                        '<p class="gameinfo2">' . '<span class="gameinfo3">' . 'Publisher: ' . '</span>' . $row['game_publisher'] . '</p>' .
+                        '<p class="gameinfo2">' . '<span class="gameinfo3">' . 'Year: ' . '</span>' . $row['game_year'] . '</p>' .
                         //info from 2nd table
-                        '<p class="gameinfo2">' . 'Console: ' . $row['game_console'] . '</p>' .
-                        '<p class="gameinfo2">' . 'Released: ' .$row['console_release'] . '</p>' .
+                        '<p class="gameinfo2">' . '<span class="gameinfo3">' . 'Console: ' . '</span>' . $row['game_console'] . '</p>' .
+                        '<p class="gameinfo2">' . '<span class="gameinfo3">' . 'Released: ' . '</span>' .$row['console_release'] . '</p>' .
                         //info from 3th table
-                        '<p class="gameinfo2">' . 'Publisher: ' . $row['pub_name'] . '</p>' .
-                        '<p class="gameinfo2">' . 'Website: ' .$row['pub_website'] . '</p>' .
+                        '<p class="gameinfo2">' . '<span class="gameinfo3">' . 'Publisher: ' . '</span>' . $row['pub_name'] . '</p>' .
+                        '<p class="gameinfo2">' . '<span class="gameinfo3">' . 'Website: ' . '</span>' .$row['pub_website'] . '</p>' .
                         '</div>' .
                         // game info
                         '<div class="card2 debug">' .

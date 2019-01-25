@@ -16,7 +16,7 @@
 <!-- NAV TOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->        
         <div class="nav debug">
             <div class="navContainer">
-                <a href="landingpage.php">Click Here To Go Back To The Start Page</a>
+                <a href="welcome.php">Home</a>
             </div>
         </div>
 <!-- DROPDOWN FILTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->

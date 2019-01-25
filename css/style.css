@@ -21,7 +21,7 @@ body {
 
 /* .debug {
     border: 1px solid red;
-} */
+} /*
 
 /*Whitespace global*/
 .whitespace {
@@ -31,6 +31,12 @@ body {
 /*Whitespace for dropdown menu*/
 .whitespace2 {
   height: 120px;
+}
+
+/*Whitespace for dropdown menu*/
+.whitespace3 {
+  height: 235px;
+  background-color: #000;
 }
 
 
@@ -188,7 +194,7 @@ body {
   /* -webkit-animation: rotate(45deg);
   transform: rotate(45deg); */
   -webkit-animation: 3s arrow infinite ease;
-  animation: 1s arrow infinite ease;
+  animation: 3s arrow infinite ease;
 }
 
 /* @-webkit-keyframes arrow {
@@ -315,10 +321,11 @@ body {
   }
 
 /* gamestop text on cards */
-  .gamestop {
-      color: red;
+  /* .gamestop {
+      color: #000;
       font-size: 25px;
-  }
+      font-weight: bold;
+  } */
 
 /* gameinfo text */
   .gameinfo {
@@ -378,6 +385,12 @@ body {
   flex: wrap;
 }
 
+.gameinfo3 {
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 /* h1 */
 .card2 h1 {
     color: #000;
@@ -428,7 +441,10 @@ body {
 /* gamestop text on cards */
 .card2 .gamestop {
   color: red;
-  font-size: 25px;
+  text-shadow: 0 0 5px #000;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /* gameinfo text */
