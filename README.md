@@ -1,8 +1,6 @@
 # Gamestop
 
 
-Started coding: dec, 2018.
-
 1 month in the bootcamp at CodeGorilla Breda, (february 2019) we learned to work with a database, and how we can work with mySQL. 
 
 We were assigned to create our first database with phpmyadmin and create a E-commerce website.
